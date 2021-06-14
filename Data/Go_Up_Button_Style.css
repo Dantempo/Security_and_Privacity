@@ -1,0 +1,81 @@
+.button
+{
+    position: fixed;
+    bottom: 10px;
+    right: 13px;
+    width: 32px;
+    height: 32px;
+    z-index: -1;
+}
+
+.go_up
+{
+    width: 0;
+    height: 0;
+    background: #2f6d6d;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: 0.3s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.go_up i
+{
+    position: absolute;
+    font-size: 25px;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.show
+{
+    z-index: 10;
+}
+
+.show .go_up
+{
+    animation: popup 0.3s ease-in-out;
+    width: 52.8px;
+    height: 52.8px;
+    transition: 0.2s;
+    z-index: 11;
+}
+
+.show .go_up:hover
+{
+    width: 56.8px;
+    height: 56.8px;
+    transition: 0.2s;
+}
+
+.show i
+{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+@keyframes popup
+{
+    0%
+    {
+        width: 0;
+        height: 0;
+    }
+
+    50%
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+    100%
+    {
+        width: 52.8px;
+        height: 52.8px;
+    }
+}

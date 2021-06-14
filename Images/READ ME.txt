@@ -1,0 +1,9 @@
+ENGLISH
+These are the images used in the project (not including .svg images and icons, which are in the Data folder).
+
+These files are so separated from the Data folder because they are not used locally, but links from external pages (Imgur) are used to upload images to the web
+
+SPANISH
+Estas son las imágenes usadas en el projecto (Sin incluir imágenes .svg e iconos, que están en la carpeta Data).
+
+Estos archivos tan separados de la carpeta Data porque no se hace el uso de estas localmente, sino que se usan links de páginas exteriores (Imgur) para cargar las imágenes en la web
