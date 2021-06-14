@@ -124,4 +124,12 @@ nav a span
         display: inherit;
         border-bottom: 1px solid #fff;
     }
+
+    @media screen and (max-width: 750px) 
+    {
+        body
+        {
+            background: #9fc4c4;
+        }
+    }
 }
