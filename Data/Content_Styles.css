@@ -176,5 +176,6 @@ a:link, a:visited, a:active
     .background
     {
         width: 100%;
+        background: #ffffff00;
     }
 }
